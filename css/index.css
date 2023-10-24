@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header.fixed {
+  padding: 0.5em 0px;
+  font-size: 20px;
+}
+header {
+  background-color: white;
+  /* position: fixed; */
+  padding: 0.5em 0px;
+  font-size: 20px;
+}
+header img {
+  height: 8rem;
+}
+nav {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+}
+.menu {
+  /* margin-right: 7rem; */
+  margin-top: 1.25rem;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+.menu li a {
+  color: black;
+  display: block;
+  padding: 2rem;
+  text-decoration: none;
+}
+
+/*  */
+.news .image img {
+  width: 100%;
+}
+.name h6 a {
+  text-decoration: none;
+  color: #899a29;
+  font-size: 30px;
+}
+.heading h2 {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  font-size: 35px;
+}
+.content.text-justify {
+  font-size: 18px;
+}
+section.container-fluid {
+  padding-bottom: 5rem;
+}
+/*  */
+footer {
+  background-color: #e7e1e1;
+  font-size: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+.col-md-5 img {
+  width: 150px;
+}
+.col-md-3 a {
+  display: block;
+  padding: 0.5em;
+}
+.com-phone,
+.com-email,
+.com-address {
+  padding: 0.5em;
+}
